@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity() {
     fun rightButtonClicked(){
         textView.text = "Below button clicked"
         button2.text = "clicked"
-        //ASDASFAWEWA
         button.text = "Upper Button"
     }
 
