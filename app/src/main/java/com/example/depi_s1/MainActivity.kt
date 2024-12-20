@@ -41,14 +41,12 @@ class MainActivity : AppCompatActivity() {
     fun rightButtonClicked(){
         textView.text = "Below button clicked"
         button2.text = "clicked"
-//        button2.setBackgroundColor()
         button.text = "Upper Button"
     }
 
     fun leftButtonClicked(){
         textView.text = "Upper button clicked"
         button.text = "clicked"
-//        button2.setBackgroundColor()
         button2.text = "Below Button"
     }
 }
